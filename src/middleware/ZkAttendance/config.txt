@@ -1,0 +1,34 @@
+[localdb]
+
+server = 120.26.100.41
+
+port = 1433
+
+user = sa
+
+password = q1w2e#r$
+
+database = zkteco
+
+logFileName = log/ZkAttendanceUpload
+
+
+
+[ZkAttendanceUpload]
+
+attendanceAddUrl = http://zhxy.jxhlw.com/api/ZkAttendance/add
+
+
+
+
+[ZkAsynBaseData]
+
+tokenUrl	=	http://zhxy.jxhlw.com/api/Cert/getToken
+
+teacherInfoUrl	=	http://zhxy.jxhlw.com/api/Teacher/ListsBaseInfo
+
+appkey	=	nbsy
+
+appsecret =	nbsy123
+
+campus	=	3301060002|330106000201|杭州泛爱众中学总校

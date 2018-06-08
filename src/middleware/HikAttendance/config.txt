@@ -1,0 +1,121 @@
+﻿[Hk]
+
+
+appkey		= appAMKASNV
+
+appcode		= 0aa4de588a33048a50229a3965aed6b0c109b89ab31d152a7312d763fac648e6
+
+
+[Zhxy]
+
+
+
+domain	=	http://zhxy.jxhlw.com
+
+
+
+#tokenUrl	=	/api/Cert/getToken
+
+
+
+appkey		=	nbsy
+
+
+
+appsecret	=	nbsy123
+
+
+
+campus		=	3301050003|330105000301|杭州第十一中学
+
+
+
+
+[Hk96]
+
+
+domain	=  http://192.168.26.151
+
+
+studentAsynOpen = on
+
+
+teacherAsynOpen = off
+
+
+uploadFaceOpen	= on
+
+leaveInOutOpen  =   on
+
+inOpen 	=	off
+
+
+outOpen =	on
+
+
+inWeekDay	=	1,2,3,4,5
+
+
+outWeekDay	=	1,2,3,4,7
+
+
+inDevice	=	001094
+
+
+
+outDevice	=	001096
+
+
+
+inAddTime	=	05:00
+
+
+
+inDeleteTime	=	10:00
+
+
+
+outAddTime	=	16:00
+
+
+
+outDeleteTime	=	23:00
+
+testDormDevice  =   001094
+
+[HkCip]
+
+
+#domain	= http://115.231.108.245:1935
+
+
+domain	=  http://10.0.30.217
+
+
+studentAsynOpen=on
+
+
+teacherAsynOpen=on
+
+
+behaveaOpen	=	on
+
+
+expressionOpen	=	on
+
+
+classRoomAttendanceOpen	=	on
+
+
+testDormDevice	=	001094
+
+
+
+
+[MessageQueue]
+
+
+open =	on
+
+
+topic	=	student,studentLeave,studentResidentThrough,studentEarlyBack,studentSchoolDoorSwingCard
